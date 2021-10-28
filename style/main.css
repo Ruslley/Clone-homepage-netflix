@@ -1,0 +1,112 @@
+:root{
+
+--red: #e50914;
+--black: #141414;
+--titles: #aaa;
+--white: #fff
+
+
+}
+/* Elementos Base */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--black);
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--white)
+  }
+  header .container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .logo{
+    color: var(--red);
+    font-family: Arial, Times;
+    font-weight: 350px;
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: var(--titles); 
+  }
+
+  header nav a:hover{
+    color:var(--white)
+  }
+
+
+  /* Filmes principais */
+
+  .move-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/capa.jpg);
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+
+  .move-principal .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .move-principal .container {
+    width:70%;
+  }
+  .button{
+    background-color: rgba(0,0,0,.50);
+    color:var(--white);
+    border:none;
+
+    margin-right: 15px;
+    padding: 15px 30px;
+    border-radius: 2px;
+    transition: .3s ease all;
+    
+   
+  }
+  .button:hover{   
+    
+    background-color: #fff;
+    color:#141414;
+    cursor: pointer; 
+       
+  }
+
+  .button i{
+    margin-right: 5px;
+  }
+
+  .title{
+    margin-top:10%;
+    font-size:40px;
+    /* margin-bottom: 10px; */
+    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.container{
+  margin-left: 15px;
+}
+ /* estilizando os banners do carrossel
+  */
+
+  .box-move{
+    height: 100%;
+    width: 100%;
+    display:block;
+  }
