@@ -16,7 +16,7 @@
 
 body{
   background: var(--black);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: var(--white)
   }
   header .container {
@@ -97,7 +97,7 @@ body{
     margin-top:10%;
     font-size:40px;
     /* margin-bottom: 10px; */
-    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 .container{
   margin-left: 15px;
@@ -109,4 +109,8 @@ body{
     height: 100%;
     width: 100%;
     display:block;
+  }
+
+  .carousel-move{
+    margin-top: 5px;
   }
